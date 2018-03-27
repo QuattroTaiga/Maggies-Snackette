@@ -1,8 +1,7 @@
-body{ background-image: url(MaggiesHome2.jpg);
+.home{
+    background-image: url(MaggiesHome2.jpg);
     background-repeat: no-repeat;
     background-size: 1500px 800px;
-
-    
 }
 .MagCenter{
      text-align: center;
@@ -13,5 +12,21 @@ body{ background-image: url(MaggiesHome2.jpg);
     text-transform: uppercase;
     }
 
+.mainheads{
+    text-align: center;
+    padding: 75px;
+}
 
+.services{
+    background-image: url(Backquilt.png);
+}
+h3 {
+    color: #00640f;
+    text-transform: uppercase;
+}
+.magservice{
+    font-family: "Sans-serif",Monospace;
+    font-size: 25px;
+    
+}
 
