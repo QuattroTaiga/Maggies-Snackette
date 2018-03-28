@@ -20,6 +20,11 @@
 .services{
     background-image: url(Backquilt.png);
 }
+
+.order{
+    background-image: url(restaurant.png)
+}
+
 h3 {
     color: #00640f;
     text-transform: uppercase;
