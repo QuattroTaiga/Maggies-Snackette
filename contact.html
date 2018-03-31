@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <link href="style-contact.css" type="text/css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="contact-script.js" type="text/js" rel="stylesheet">
+        
     </head>
     <body>
         
@@ -25,13 +25,13 @@
         </div>
     
         <div  class="email">
-            <a href="#"><i class="fa fa-envelope" id="icon"></i></a>
-            <il>Mail Us</il>
+            <a href="#"><i class="fa fa-envelope" id="icon" id="popup" onclick="div_show()"></i></a>
+            <a href="#"><il id="popup" onclick="div_show()">Mail Us</il></a>
         </div>
 
         <div  class="facebook">
-           <a href="https://www.facebook.com/Maggies-Snackette-227224840657616/"><i class="fa fa-facebook" id="icon"></i></a>   
-            <il>Facebook Page</il>
+            <a href="https://www.facebook.com/Maggies-Snackette-227224840657616/"><i class="fa fa-facebook" id="icon"></i></a>   
+            <a href="https://www.facebook.com/Maggies-Snackette-227224840657616/"><il>Facebook Page</il></a>
         </div>
         </div>
         
@@ -40,10 +40,24 @@
         </div>
     
         <div class="map-section">
-        
-        <script src="https://www.google.com/maps/d/viewer?ll=6.815648%2C-58.158252000000005&spn=0.014914%2C0.018239&ptab=2&hl=en&gl=ca&oe=UTF8&msa=0&z=15&source=embed&ie=UTF8&mid=1NSyta1n8HtFKpOaBpaNrqPzApok"></script>
-
-        
+            <iframe width="600" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.ca/maps/ms?hl=en&amp;gl=ca&amp;ptab=2&amp;ie=UTF8&amp;oe=UTF8&amp;msa=0&amp;msid=108847187015367432032.00048ddbe0878ba6b6a88&amp;ll=6.815648,-58.158252&amp;spn=0.014914,0.018239&amp;z=15&amp;output=embed"></iframe>
         </div>
+       
+        <script src="contact-script.js"></script>
+        <div id="email-popup">
+            
+            <div id="popupContact">
+                
+                <form action="#" id="form" method="post" name="form">
+                    <img id="close" src="close-button.png" onclick ="div_hide()">
+                    <h2>Contact Us</h2>
+                    <hr>
+                    <input id="name" name="name" placeholder="Name" type="text">
+                    <input id="email" name="email" placeholder="Email" type="text">
+                    <textarea id="msg" name="message" placeholder="Message"></textarea>
+                    <a href="javascript:%20check_empty()" id="submit">Send</a>
+                </form>
+            </div>
+        </div>        
     </body>
 </html>
