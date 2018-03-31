@@ -8,7 +8,7 @@
     padding: 200px;
     font-family: "Sans-serif",Monospace;
     font-size: 25px;
-    color: #00640f; 
+    color: #438811; 
     text-transform: uppercase;
     }
 
@@ -50,5 +50,53 @@ h3 {
     right: 0;
 }
 
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #27ae60;
+    top: 0;
+    }
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 12px; 
+    text-decoration: none;
+    }
+
+li a:hover:not(.active) {
+    background-color: #0ea1fd
+}
+
+nav {
+    margin-left: -12px;
+    margin-top: -8px;
+    position: relative;
+    z-index: 0;
+}
+
+.active{
+    background-color: #2a99b4;
+}
+
+.magslide{
+    width: 1343px;
+    height: 800px;
+   padding: 100px;
+    margin: -108px;
+    
+    
+}
 
 
