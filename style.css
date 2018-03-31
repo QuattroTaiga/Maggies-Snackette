@@ -1,7 +1,13 @@
 .home{
     background-image: url(MaggiesHome2.jpg);
     background-repeat: no-repeat;
-    background-size: 1500px 800px;
+    background-size: 1345px 800px;
+    background-origin: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
 }
 .MagCenter{
      text-align: center;
@@ -64,30 +70,30 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #27ae60;
+    /*background-color: #27ae60;*/
     top: 0;
     }
 li a {
     display: block;
-    color: #ffffff;
+    color: black;
     text-align: center;
     padding: 14px 12px; 
     text-decoration: none;
     }
 
-li a:hover:not(.active) {
-    background-color: #0ea1fd
-}
 
-nav {
-    margin-left: -12px;
-    margin-top: -8px;
+
+.navbar {
+    margin-right: 12px;
+    float:right;
+    margin-top: 65px;
     position: relative;
-    z-index: 0;
+    z-index: 1;
+    font-size: 20px;
 }
 
 .active{
-    background-color: #2a99b4;
+    background-color: orange;
 }
 
 .magslide{
@@ -100,3 +106,81 @@ nav {
 }
 
 
+/*navbar*/
+
+nav{
+    width:auto;
+    /*border: 2px solid red;*/
+    height: 110px;
+    margin-top: 0s;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: white;
+}
+
+#logo{
+    border: 2px solid blue;
+    float:left;
+    margin-top: 8px;
+    margin-left: 12px;
+    
+    
+    
+}
+
+#logo img{
+    height: 80px;
+    padding: 5px;
+    
+}
+
+.button{
+    border: 2px solid orange;
+    transition-duration: 0.4s;
+}
+
+#Home{
+    margin-right: 10px; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#Menu{
+    margin-right: 10px; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#Services{
+    margin-right: 10px; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#Order{
+    margin-right: 10px; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#Contact{
+    margin-right: 10px; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.selector{
+    position: absolute;
+    /*border: 2px solid blue;*/
+    margin-top: 110px;
+    height:15px;
+    width: 100%;
+    z-index: 2;
+    background-color: orange;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.button:hover:not(.active) {
+    background-color: yellow;
+}
