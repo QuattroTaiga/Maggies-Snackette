@@ -16,11 +16,15 @@ body{
     font-size: 25px;
     color: #438811; 
     text-transform: uppercase;
+    border: solid 5px;
+    background-color: #f8f8f8;
     }
 
 .mainheads{
     text-align: center;
-    padding: 75px;
+    padding: 11px;
+    border: solid 5px #1276ff;
+    background-color: 
 }
 
 .services{
@@ -96,10 +100,10 @@ nav a {
 }
 
 .magslide{
-    width: 1343px;
+    width: 1426px;
     height: 800px;
-   padding: 100px;
-    margin: -108px;
+   padding: 1px;
+    margin-top: 
     
     
 }
@@ -111,7 +115,7 @@ nav{
     width:auto;
     /*border: 2px solid red;*/
     height: 110px;
-    margin-top: 0s;
+    margin-top: 0;
     margin-right: 0;
     margin-left: 0;
     background-color: white;
@@ -191,3 +195,34 @@ nav{
 }
 
 
+
+
+.menuboard {
+    border: 3px solid #0e709b;
+    overflow: hidden;
+    margin-top: 50px;
+    background-color: #565a54
+}
+.menuboard img{
+    width: 800px;
+    height: 500px;
+    margin-top: 100px;
+    border-radius: 5%;
+}
+.borderstyle {
+    border:  3px solid #007c30;
+}
+
+.menuboard h2,p{
+    position: relative;
+    left: 900px;
+    bottom: 400px;
+}
+.menuboard p{
+    font-size: 20px;
+    
+}
+.menutext {
+    border: 1px solid #007c30;
+    display: inline;
+}
