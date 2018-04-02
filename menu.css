@@ -1,0 +1,73 @@
+.menu1{
+    border: 5px solid;
+}
+.menu2 h1{
+    text-align: center;
+    border: solid 8px;
+    font-size: 60px;
+    margin: 5px;
+}
+.menu2 h3{
+    position: absolute;
+    left: 25%;
+    border: solid 5px;
+    display: block;
+    font-size: 30px;
+    }
+
+
+
+.menu3 h3 {
+    position: absolute;
+    left: 45%;
+}
+
+.menu4 {
+    position: absolute;
+    left: 60%
+}
+
+.menu5 h2{
+    position: relative;
+    border: solid 5px;
+    display: inline-block;
+    bottom: -100px;
+    left:40%;
+    font-size: 50px;
+    
+    
+    
+    
+}
+
+.menu6 img {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    top: 200px;
+    margin-left: 50px;
+    border: 10px solid;
+    border-radius: 25px;
+    }
+
+.menu7 img {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    top: -125px;
+    border: 10px solid;
+    margin-left: 70%;
+    border-radius: 25px
+    
+}
+
+
+.menu8 h3{
+    text-decoration: underline;
+    position: relative;
+    display: inline-block;
+    top: -100px;
+    margin-left: 5%;
+    
+}
+
