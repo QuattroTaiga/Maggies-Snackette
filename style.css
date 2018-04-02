@@ -1,24 +1,32 @@
 .home{
-    background-image: url(MaggiesHome2.jpg);
-    background-repeat: no-repeat;
-    background-size: 1345px 800px;
-    background-origin: border-box;
-    overflow-x: hidden;
+
 }
 
 body{
     margin: 0;
+    background-color: #497867;
 }
 .MagCenter{
-     text-align: center;
-    padding: 200px;
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
     font-family: "Sans-serif",Monospace;
     font-size: 25px;
     color: #438811; 
     text-transform: uppercase;
-    border: solid 5px;
-    background-color: #f8f8f8;
     }
+
+.maghome{
+    position: absolute;
+    top: 800px;
+    width:auto;
+    height: 600px;
+    width:100%;
+    margin:0;
+    overflow-x: hidden;    
+}
 
 .mainheads{
     text-align: center;
@@ -58,7 +66,138 @@ h3 {
     right: 0;
 }
 
-li {
+
+.magslide{
+    width: 800px;
+    height: 600px;
+}
+
+.slider{
+    margin-left: 12px;
+    margin-top: 50px;
+    width: 800;
+    height: 600px;
+    
+}
+#slider-text p{
+    height: 500px;
+    width: 400px;
+    border: 3px solid orange;
+    border-radius: 30px;
+    position: absolute;
+    margin-right: 30px;
+    right: 30px;
+    top: 200px;
+    text-transform: uppercase;
+    color: #00640f;
+    background-color: orange;
+    text-align: center;
+    line-height: 150%;
+   
+}
+/*navbar*/
+
+nav{
+    width:auto;
+    /*border: 2px solid red;*/
+    height: 110px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: #33997d;
+    z-index: -4;
+}
+
+#logo{
+    border: 2px solid orange;
+    background-color: white;
+    float:left;
+    margin-top: 8px;
+    margin-left: 10px;
+    border-radius: 25px;
+    width:260px;
+    height: 90px;
+    align-content: center;
+
+}
+
+#outside-logo{
+    border: 2px solid orange;
+    background-color: orange;
+    float:left;
+    margin-top: 0px;
+    margin-left: 0px;
+    align-content: center;
+    width:280px;
+    height: 120px;
+    border-top-right-radius:30px;
+    border-bottom-right-radius: 30px;
+}  
+
+#logo img{
+    height: 80px;
+    padding: 5px;
+    margin-left: 10px;
+    
+}
+
+.button{
+    border: 2px solid orange;
+    transition-duration: 0.4s;
+    background-color: white;
+}
+
+#Home{
+    margin-right: 10px; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#Menu{
+    margin-right: 10px; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#Services{
+    margin-right: 10px; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#Order{
+    margin-right: 10px; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#Contact{
+    margin-right: 10px; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.selector{
+    position: absolute;
+    /*border: 2px solid blue;*/
+    margin-top: 110px;
+    height:15px;
+    width: 100%;
+    z-index: 2;
+    background-color: orange;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.button:hover:not(.active) {
+    background-color: orange;
+}
+
+.active{
+    background-color: orange;
+}
+
+nav li {
     float: left;
 }
 
@@ -93,104 +232,7 @@ nav a {
     z-index: 1;
     font-size: 20px;
     overflow: hidden;
-}
-
-.active{
-    background-color: orange;
-}
-
-.magslide{
-    width: 1426px;
-    height: 800px;
-   padding: 1px;
-    margin-top: 
-    
     
 }
 
-
-/*navbar*/
-
-nav{
-    width:auto;
-    /*border: 2px solid red;*/
-    height: 110px;
-    margin-top: 0;
-    margin-right: 0;
-    margin-left: 0;
-    background-color: white;
-}
-
-#logo{
-    border: 2px solid blue;
-    float:left;
-    margin-top: 8px;
-    margin-left: 12px;
-    
-    
-    
-}
-
-#logo img{
-    height: 80px;
-    padding: 5px;
-    
-}
-
-.button{
-    border: 2px solid orange;
-    transition-duration: 0.4s;
-}
-
-#Home{
-    margin-right: 10px; 
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-#Menu{
-    margin-right: 10px; 
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-#Services{
-    margin-right: 10px; 
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-#Order{
-    margin-right: 10px; 
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-#Contact{
-    margin-right: 10px; 
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-#Review{
-    margin-right: 10px; 
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-.selector{
-    position: absolute;
-    /*border: 2px solid blue;*/
-    margin-top: 110px;
-    height:15px;
-    width: 100%;
-    z-index: 2;
-    background-color: orange;
-    margin-right: 0;
-    margin-left: 0;
-}
-
-.button:hover:not(.active) {
-    background-color: yellow;
-}
 
